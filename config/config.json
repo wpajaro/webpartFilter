@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "data-filtros-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/dataFiltros/DataFiltrosWebPart.js",
+          "manifest": "./src/webparts/dataFiltros/DataFiltrosWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DataFiltrosWebPartStrings": "lib/webparts/dataFiltros/loc/{locale}.js"
+  }
+}

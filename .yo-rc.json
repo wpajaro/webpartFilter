@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.15.0",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "filtros-solution",
+    "libraryId": "1e12335b-1c53-46e9-8b34-dc55cf1f3a71",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "filtros-solution",
+    "solutionShortDescription": "filtros-solution description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
