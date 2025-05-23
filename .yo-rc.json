@@ -1,8 +1,8 @@
 {
   "@microsoft/generator-sharepoint": {
     "plusBeta": false,
-    "isCreatingSolution": true,
-    "nodeVersion": "22.15.0",
+    "isCreatingSolution": false,
+    "nodeVersion": "22.14.0",
     "sdksVersions": {},
     "version": "1.21.1",
     "libraryName": "filtros-solution",

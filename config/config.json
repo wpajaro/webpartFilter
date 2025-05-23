@@ -9,10 +9,19 @@
           "manifest": "./src/webparts/dataFiltros/DataFiltrosWebPart.manifest.json"
         }
       ]
+    },
+    "visor-pdf-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/visorPdfWebPart/VisorPdfWebPartWebPart.js",
+          "manifest": "./src/webparts/visorPdfWebPart/VisorPdfWebPartWebPart.manifest.json"
+        }
+      ]
     }
   },
   "externals": {},
   "localizedResources": {
-    "DataFiltrosWebPartStrings": "lib/webparts/dataFiltros/loc/{locale}.js"
+    "DataFiltrosWebPartStrings": "lib/webparts/dataFiltros/loc/{locale}.js",
+    "VisorPdfWebPartWebPartStrings": "lib/webparts/visorPdfWebPart/loc/{locale}.js"
   }
 }

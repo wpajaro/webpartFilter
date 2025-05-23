@@ -56,12 +56,15 @@ const DataFiltros: React.FC = () => {
       <div className={styles.filtros}>
         <h3>Filtros</h3>
         <Filtros data={registros} filtrosActivos={filtros} onFiltrar={setFiltros} />
-        <div>
+        <div className={styles.listaScroll}>
           {registrosFiltrados.map(item => (
             <div
               key={item.ID}
               className={styles.card}
-              onClick={() => setRegistroSeleccionado(item)}
+              onClick={() => {
+                setRegistroSeleccionado(item);
+                window.dispatchEvent(new CustomEvent("registroSeleccionado", {detail: item}));
+              }}
             >
               <h4>{item.placa}</h4>
               <p>Marca: {item.marca}</p>
